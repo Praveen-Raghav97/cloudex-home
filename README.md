@@ -68,4 +68,4 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/praveen-raghav97)
+Made with ❤️ by Praveen Raghav(https://github.com/praveen-raghav97)

@@ -1,6 +1,6 @@
 # Cloudex Home
 
-![Cloudex Banner](https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Screenshot%202024-12-29%20153425.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222024-12-31T10%3A07%3A00.200Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fa361e0829cd84cb6%2FScreenshot%25202024-12-29%2520153425.png%3FExpires%3D1735639620%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3De9MzEomV3FMvEqKNbJHBfw8PnQlYhD74V-TnJgUjZ-sw2tyW5o64S9XnbwF-3RWKXCdo8xo1fCQ8~JNpqHac7V9amxOewtrja-O0pFsfk05~gNY48kLgxNqSn85NZOwEB-xjEXHRgOp1qgHLVdN2HVONPa68QQsR~bveef4nF7OHolDjyDp121kfUXzOyQ~UCEsridD40DO4KTWmiTlxjgmSBbGDo59MMzP5r5ve5zn9If4lmYNouchkdrLJnuBRsBohP3H9jPs2holHKb-BX8BIVpefWW6mjsOkENY6O98QC5jAHH6lVmzBt~bvI5eg~sLxY9KmJ43AgnlRiTOHVA__%22%7D)  <!-- Replace with your banner image path -->
+![Cloudex Banner](https://res.cloudinary.com/derlbfbjz/image/upload/v1735470243/Screenshot_2024-12-29_153425_va7elo.png)  <!-- Replace with your banner image path -->
 
 Cloudex is a modern, fully responsive web application designed to provide cloud services with ease. It is built with Next.js, Tailwind CSS, and optimized for performance and mobile responsiveness.
 

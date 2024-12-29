@@ -17,10 +17,10 @@ export default function Navbar() {
 
   return (
     <nav className=" sticky top-0 z-50 bg-transparent ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-4  p-2 lg:px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-4  py-2 lg:px-6">
         <div className="flex justify-between items-center h-16">
           {/* Left side: Brand Logo */}
-          <div className="flex-shrink-0 p-2">
+          <div className="flex-shrink-0 py-2">
             <Link className="text-xl font-bold" href="/">
               <Image
                 src="/heading.png"

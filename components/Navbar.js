@@ -16,7 +16,7 @@ export default function Navbar() {
   useState(() => setMounted(true), []);
 
   return (
-    <nav className="shadow-md sticky top-0 z-50 bg-white ">
+    <nav className="shadow-md sticky top-0 z-50 bg-transparent ">
       <div className="max-w-7xl mx-auto px-4 sm:px-4  lg:px-6">
         <div className="flex justify-between items-center h-16">
           {/* Left side: Brand Logo */}

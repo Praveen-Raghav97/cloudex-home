@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-4  py-2 lg:px-6">
         <div className="flex justify-between items-center h-16">
           {/* Left side: Brand Logo */}
-          <div className="flex-shrink-0 py-2">
+          <div className="flex-shrink-0 py-2 animate-bounce">
             <Link className="text-xl font-bold" href="/">
               <Image
                 src="/heading.png"

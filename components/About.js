@@ -25,8 +25,8 @@ const About = () => {
         {/* Features Section */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* Feature 1 */}
-          <div className="bg-white cursor-pointer rounded-lg shadow-md p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
-            <div className="flex items-center gap-4 mb-8">
+          <div className="bg-white h-[320px]  cursor-pointer rounded-lg shadow-md p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+            <div className="flex items-center gap-4 mb-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -50,7 +50,7 @@ const About = () => {
 
           {/* Feature 2 */}
           <div className="bg-white cursor-pointer rounded-lg shadow-md p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
-            <div className="flex items-center gap-4 mb-8">
+            <div className="flex items-center gap-4 mb-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -74,7 +74,7 @@ const About = () => {
 
           {/* Feature 3 */}
           <div className="bg-white  cursor-pointer rounded-lg shadow-md p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
-            <div className="flex items-center gap-4 mb-8">
+            <div className="flex items-center gap-4 mb-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

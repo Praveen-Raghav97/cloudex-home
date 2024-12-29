@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { Separator } from './ui/separator';
 import FooterCard from './FooterCard';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -62,9 +63,16 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
             <p>&copy; 2024 Cloudex, LLC.</p>
             <div className="flex space-x-4">
-              <Image src="/gmail.png" width={28} height={24} alt="icon" />
+              <Link href="https://github.com/Praveen-Raghav97">
               <Image src="/github (1).png" width={28} height={24} alt="icon" />
+              </Link>
+              <Link href="mailto:rishavthakur9027@gmail.com">
+              <Image src="/gmail.png" width={28} height={24} alt="icon" />
+              </Link>
+              
+              <Link href="https://www.linkedin.com/in/praveen-raghav/">
               <Image src="/linkedin.png" width={28} height={24} alt="icon" />
+              </Link>
             </div>
           </div>
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">

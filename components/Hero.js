@@ -58,7 +58,7 @@ export function Hero() {
             {/* Video Player */}
             <div className="relative w-full">
               <video className="w-full h-[500px] rounded-lg" controls>
-                <source src="/path-to-your-video.mp4" type="video/mp4" />
+                <source src="/cloudex.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

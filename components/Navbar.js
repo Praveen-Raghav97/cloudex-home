@@ -50,7 +50,7 @@ export default function Navbar() {
           {/* Right side: Login button and Theme Switcher */}
           <div className="flex items-center space-x-4">
             <Link href="https://cloudex-eight.vercel.app/">
-            <Button className="bg-secondary text-white hidden md:block py-3 px-6 rounded-3xl">
+            <Button className="bg-secondary text-white hidden md:block py-3 px-6 rounded-3xl animate-bounce">
               Get Started
             </Button>
             </Link>

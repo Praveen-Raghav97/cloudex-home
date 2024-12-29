@@ -49,7 +49,7 @@ export function Hero() {
           <div className=" p-10 rounded-xl max-w-4xl w-full relative">
             {/* Close Button */}
             <button
-              className="absolute top-2 right-2 text-secondary text-2xl font-semibold  p-2 rounded-md"
+              className="absolute top-2 right-2 text-black text-2xl font-semibold  p-2 rounded-md"
               onClick={closeModal}
             >
               X

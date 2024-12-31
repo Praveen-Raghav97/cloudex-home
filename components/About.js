@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 const About = () => {
   return (
-    <section className="py-16 bg-primary-light about">
+    <section className="py-16 bg-primary-light about" id='About'>
       <div className="container mx-auto px-4">
         {/* Heading Section */}
         <div className="max-w-3xl mx-auto text-center">
@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         {/* Features Section */}
-        <div className="grid p-20 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid md:p-20 p-4 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* Feature 1 */}
           <div className="bg-white h-[320px]  cursor-pointer rounded-lg shadow-md p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
             <div className="flex items-center gap-4 mb-20">

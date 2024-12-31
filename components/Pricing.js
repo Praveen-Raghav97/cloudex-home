@@ -8,7 +8,7 @@ export function Pricing() {
   ];
 
   return (
-    <section className="py-20 bg-lightGray flex items-center flex-col">
+    <section className="py-20 bg-lightGray flex items-center flex-col " id="Pricing">
       <Button className="border text-primary border-primary bg-transparent py-3 px-6 rounded-3xl mb-10 hover:bg-primary-dark">
         Transparent Pricing
       </Button>

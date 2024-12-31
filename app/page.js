@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Developer from "@/components/Developer";
 import Feuture from "@/components/Feuture";
 import Footer from "@/components/Footer";
 import FooterCard from "@/components/FooterCard";
@@ -15,9 +16,10 @@ export default function Home() {
   <Hero/>
   <Feuture/>
   <About/>
+  <Developer/>
   <Pricing/>
   
-  
+
   <Footer/>
   
  

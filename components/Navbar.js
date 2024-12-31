@@ -27,22 +27,23 @@ export default function Navbar() {
                 width={220}
                 height={90}
                 alt="Cloudex"
+                className="border-none"
               />
             </Link>
           </div>
 
           {/* Center: Navigation Links */}
           <div className="hidden md:flex space-x-10 animate-bounce">
-            <Link className="text-lg text-gray-800 hover:text-secondary" href="/">
+            <Link className="text-lg text-gray-800 hover:text-secondary" href="#About">
               About
             </Link>
-            <Link className="text-lg text-gray-800  hover:text-secondary" href="/">
+            <Link className="text-lg text-gray-800  hover:text-secondary" href="#Services">
               Services
             </Link>
-            <Link className="text-lg text-gray-800  hover:text-secondary" href="/">
+            <Link className="text-lg text-gray-800  hover:text-secondary" href="#Pricing">
               Pricing
             </Link>
-            <Link className="text-lg text-gray-800  hover:text-secondary" href="/">
+            <Link className="text-lg text-gray-800  hover:text-secondary" href="#Developer">
               Developers
             </Link>
           </div>
@@ -85,31 +86,31 @@ export default function Navbar() {
             <div className="flex flex-col items-center space-y-4 py-4">
               <Link
                 className="text-lg text-gray-800  hover:text-primary"
-                href="/"
+                href="#About"
               >
                 About
               </Link>
               <Link
                 className="text-lg text-gray-800  hover:text-primary"
-                href="/"
+                href="#Services"
               >
                 Services
               </Link>
               <Link
                 className="text-lg text-gray-800  hover:text-primary"
-                href="/"
+                href="#Pricing"
               >
                 Pricing
               </Link>
               <Link
                 className="text-lg text-gray-800  hover:text-primary"
-                href="/"
+                href="#Developer"
               >
                 Developers
               </Link>
 
               <Link href="https://cloudex-eight.vercel.app/">
-            <Button className="bg-secondary text-white hidden md:block py-3 px-6 rounded-3xl">
+            <Button className="bg-secondary text-white  md:block py-3 px-6 rounded-3xl">
               Get Started
             </Button>
             </Link>

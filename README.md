@@ -1,4 +1,4 @@
-# Cloudex Home
+<h1 className="text-center text-purple-700"># Cloudex Home</h1>
 
 ![Cloudex Banner](https://res.cloudinary.com/derlbfbjz/image/upload/v1735470243/Screenshot_2024-12-29_153425_va7elo.png)  <!-- Replace with your banner image path -->
 

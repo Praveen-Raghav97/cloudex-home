@@ -15,7 +15,7 @@ const Developer = () => {
         {/* Left Side - Developer Image */}
         <div className="w-full p-10 md:p-0 md:w-[40%] h-auto md:h-auto">
           <Image
-            src="/image1.png" // Replace with your developer image path
+            src="/developer.png" // Replace with your developer image path
             alt="Developer Image"
            
             objectFit="cover"

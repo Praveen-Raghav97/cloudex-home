@@ -1,8 +1,8 @@
-# Cloudex Home
+<h1 className="text-center text-purple-700"># Cloudex Home</h1>
 
 ![Cloudex Banner](https://res.cloudinary.com/derlbfbjz/image/upload/v1735470243/Screenshot_2024-12-29_153425_va7elo.png)  <!-- Replace with your banner image path -->
 
-Cloudex is a modern, fully responsive web application designed to provide cloud services with ease. It is built with Next.js, Tailwind CSS, and optimized for performance and mobile responsiveness.
+<h2>Cloudex is a modern, fully responsive web application designed to provide cloud services with ease. It is built with Next.js, Tailwind CSS, and optimized for performance and mobile responsiveness.</h2>
 
 ## Features
 

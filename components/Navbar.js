@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
 
           {/* Center: Navigation Links */}
-          <div className="hidden md:flex space-x-10 animate-bounce">
+          <div className="hidden md:flex space-x-10 ">
             <Link className="text-lg text-gray-800 hover:text-secondary" href="#About">
               About
             </Link>

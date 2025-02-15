@@ -16,11 +16,19 @@ export default function Navbar() {
   useState(() => setMounted(true), []);
 
   return (
+<<<<<<< HEAD
     <nav className=" sticky top-0 z-50 bg-transparent bg-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-4  py-2 lg:px-6">
         <div className="flex justify-between items-center h-16">
           {/* Left side: Brand Logo */}
           <div className="flex-shrink-0 py-2">
+=======
+    <nav className=" sticky top-0 z-50  ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-4  py-2 lg:px-6">
+        <div className="flex justify-between items-center h-16">
+          {/* Left side: Brand Logo */}
+          <div className="flex-shrink-0 py-2 ">
+>>>>>>> 7c867cbdb0f50238c3d33fdf5baf219cbcd58ff9
             <Link className="text-xl font-bold" href="/">
               <Image
                 src="/heading.png"

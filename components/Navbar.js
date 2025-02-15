@@ -16,11 +16,11 @@ export default function Navbar() {
   useState(() => setMounted(true), []);
 
   return (
-    <nav className=" sticky top-0 z-50 bg-transparent ">
+    <nav className=" sticky top-0 z-50 bg-transparent bg-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-4  py-2 lg:px-6">
         <div className="flex justify-between items-center h-16">
           {/* Left side: Brand Logo */}
-          <div className="flex-shrink-0 py-2 animate-bounce">
+          <div className="flex-shrink-0 py-2">
             <Link className="text-xl font-bold" href="/">
               <Image
                 src="/heading.png"
@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
 
           {/* Center: Navigation Links */}
-          <div className="hidden md:flex space-x-10 animate-bounce">
+          <div className="hidden md:flex space-x-10 ">
             <Link className="text-lg text-gray-800 hover:text-secondary" href="#About">
               About
             </Link>
@@ -51,7 +51,7 @@ export default function Navbar() {
           {/* Right side: Login button and Theme Switcher */}
           <div className="flex items-center space-x-4">
             <Link href="https://cloudex-eight.vercel.app/">
-            <Button className="bg-secondary text-white hidden md:block py-3 px-6 rounded-3xl animate-bounce">
+            <Button className="bg-secondary text-white hidden md:block py-3 px-6 rounded-3xl">
               Get Started
             </Button>
             </Link>

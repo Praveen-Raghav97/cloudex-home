@@ -13,15 +13,15 @@ const Developer = () => {
       <div className="max-w-6xl md:h-[600px] w-full bg-white shadow-lg  rounded-lg overflow-hidden flex flex-col md:flex-row">
         
         {/* Left Side - Developer Image */}
-        <div className="w-full p-10 md:p-0 md:w-[40%] h-auto md:h-auto">
+        <div className="w-full p-10 flex items-center justify-center md:p-0 md:w-[40%] h-auto md:h-auto">
           <Image
             src="/developer.png" // Replace with your developer image path
             alt="Developer Image"
            
             objectFit="cover"
-            className="rounded-l-lg  hover:animate-pulse cursor-pointer  "
-            width={400}
-            height={200}
+            className=" rounded-l-lg hover:animate-pulse cursor-pointer    "
+            width={300}
+            height={300}
           />
         </div>
 
